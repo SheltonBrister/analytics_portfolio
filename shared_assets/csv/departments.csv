@@ -1,0 +1,17 @@
+department_id	department_name	cost_center_code
+1	Engineering	CC-101
+2	Product	CC-102
+3	Data Science	CC-103
+4	People Operations	CC-104
+5	Finance	CC-105
+6	Legal	CC-106
+7	Marketing	CC-107
+8	Sales	CC-108
+9	Customer Success	CC-109
+10	IT Support	CC-110
+11	Security	CC-111
+12	Supply Chain	CC-112
+13	Facilities	CC-113
+14	Corporate Strategy	CC-114
+15	Internal Communications	CC-115
+16	Quality Assurance	CC-116
