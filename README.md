@@ -23,7 +23,9 @@ People-Analytics-Portfolio/
 │   ├── sql/
 │   ├── notebooks/
 │   └── README.md
-├── assets/
+├── TBD Project 2/
+├── TBD Project 3/
+├── shared_assets/
 └── README.md
 ```
 
