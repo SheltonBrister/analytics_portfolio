@@ -14,6 +14,8 @@ StandardizedEmployees AS (
     -- Standardize text formats, cast types, and filter out bad data/nulls
     SELECT 
         employee_id,
+        department_id,
+        TRIM(management_tier) AS management_tier,
         CAST(base_salary AS DECIMAL(10,2)) AS base_salary,
         CAST(performance_rating AS UNSIGNED) AS performance_rating,
         CAST(age AS UNSIGNED) AS age,
@@ -50,19 +52,51 @@ StandardizedSurveys AS (
       AND (engagement_score IS NULL OR engagement_score BETWEEN 0 AND 10)
       AND (manager_satisfaction IS NULL OR manager_satisfaction BETWEEN 0 AND 10)
       AND (work_life_balance_score IS NULL OR work_life_balance_score BETWEEN 0 AND 10)
+),
+EnrichedEmployees AS (
+    SELECT 
+        e.employee_id,
+        e.base_salary,
+        e.performance_rating,
+        e.tenure_years,
+        e.age,
+        s.engagement_score,
+        s.manager_satisfaction,
+        s.work_life_balance_score,
+        CASE 
+            WHEN e.employment_status IN ('Terminated', 'Resigned') THEN 1 
+            ELSE 0 
+        END AS is_attrition,
+        -- Calculate Comp-Ratio relative to Department & Management Tier median/average benchmark
+        e.base_salary / NULLIF(AVG(e.base_salary) OVER (PARTITION BY e.department_id, e.management_tier), 0) AS comp_ratio,
+        -- Estimate Replacement Cost (heuristic: 40% of base salary)
+        e.base_salary * 0.40 AS estimated_replacement_cost,
+        -- Classify Tenure Cohorts for retention stage analysis
+        CASE 
+            WHEN e.tenure_years < 1 THEN '0-1 Year (Onboarding)'
+            WHEN e.tenure_years BETWEEN 1 AND 3 THEN '1-3 Years (Mid-Tenure)'
+            ELSE '3+ Years (Tenured)'
+        END AS tenure_cohort,
+        -- Flag high flight risk (High performer + Low engagement)
+        CASE 
+            WHEN e.performance_rating >= 4 AND s.engagement_score < 5 THEN 1 
+            ELSE 0 
+        END AS flight_risk_flag
+    FROM StandardizedEmployees e
+    LEFT JOIN StandardizedSurveys s ON e.employee_id = s.employee_id
 )
 
 SELECT 
-    e.base_salary,
-    e.performance_rating,
-    e.tenure_years,
-    e.age,
-    s.engagement_score,
-    s.manager_satisfaction,
-    s.work_life_balance_score,
-    CASE 
-        WHEN e.employment_status IN ('Terminated', 'Resigned') THEN 1 
-        ELSE 0 
-    END AS is_attrition
-FROM StandardizedEmployees e
-LEFT JOIN StandardizedSurveys s ON e.employee_id = s.employee_id;
+    base_salary,
+    performance_rating,
+    ROUND(tenure_years, 2) AS tenure_years,
+    age,
+    engagement_score,
+    manager_satisfaction,
+    work_life_balance_score,
+    is_attrition,
+    ROUND(comp_ratio, 3) AS comp_ratio,
+    estimated_replacement_cost,
+    tenure_cohort,
+    flight_risk_flag
+FROM EnrichedEmployees;

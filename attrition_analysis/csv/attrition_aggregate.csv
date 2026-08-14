@@ -1,86 +1,86 @@
-department_name	management_tier	total_headcount	total_attrition_count	attrition_rate_pct	avg_base_salary	avg_tenure_years	avg_performance_rating
-Customer Success	Manager	6	2	33.33	91504.92	2.96	3.17
-Supply Chain	Domain Director	3	1	33.33	143455.77	2.00	2.67
-Data Science	Assistant Manager	10	3	30.00	82607.91	2.13	3.70
-Finance	Assistant Manager	7	2	28.57	77821.89	2.67	2.43
-Supply Chain	Assistant Manager	7	2	28.57	88442.30	2.79	3.00
-Data Science	Supervisor/Lead	36	9	25.00	74376.84	2.61	3.50
-Quality Assurance	Manager	4	1	25.00	94445.62	2.57	2.50
-People Operations	Domain Director	4	1	25.00	140021.00	3.71	2.50
-Legal	Supervisor/Lead	27	6	22.22	69631.73	2.23	3.00
-Engineering	Manager	9	2	22.22	98603.25	1.87	3.00
-Marketing	Assistant Manager	9	2	22.22	74060.24	2.78	3.00
-Facilities	Supervisor/Lead	54	11	20.37	72002.46	2.51	3.07
-Facilities	Manager	5	1	20.00	82945.35	1.25	3.40
-Marketing	Manager	5	1	20.00	90203.52	1.97	3.80
-Quality Assurance	Assistant Manager	5	1	20.00	79339.20	2.95	2.80
-Security	Associate	172	32	18.60	57811.40	2.46	3.23
-Legal	Manager	11	2	18.18	95965.24	2.59	3.18
-Sales	Associate	265	48	18.11	57317.88	2.35	3.30
-Internal Communications	Supervisor/Lead	41	7	17.07	72216.22	2.11	2.95
-Corporate Strategy	Assistant Manager	6	1	16.67	77492.60	2.35	3.33
-Facilities	Assistant Manager	6	1	16.67	84084.44	1.60	3.17
-Finance	Domain Director	6	1	16.67	129447.50	1.86	2.83
-Marketing	Associate	208	34	16.35	56537.36	2.34	3.18
-Finance	Associate	175	28	16.00	58320.76	2.50	3.40
-Internal Communications	Associate	183	27	14.75	57939.36	2.52	3.14
-Corporate Strategy	Associate	218	32	14.68	56554.70	2.31	3.32
-Legal	Associate	172	25	14.53	56622.45	2.55	3.22
-Corporate Strategy	Manager	7	1	14.29	101588.78	2.12	3.57
-IT Support	Manager	7	1	14.29	88456.30	1.19	3.57
-Security	Supervisor/Lead	43	6	13.95	73883.75	2.45	3.07
-Product	Supervisor/Lead	37	5	13.51	72736.26	2.79	3.16
-IT Support	Supervisor/Lead	37	5	13.51	72008.60	2.50	3.62
-Quality Assurance	Associate	163	22	13.50	55953.90	2.34	3.30
-Internal Communications	Assistant Manager	15	2	13.33	85038.52	2.52	2.53
-Data Science	Associate	173	23	13.29	57623.49	2.26	3.19
-Supply Chain	Associate	218	28	12.84	57683.88	2.29	3.23
-Engineering	Associate	197	25	12.69	58021.73	2.37	3.20
-IT Support	Associate	229	29	12.66	58199.36	2.16	3.22
-Corporate Strategy	Supervisor/Lead	32	4	12.50	72596.14	2.12	3.63
-Internal Communications	Manager	8	1	12.50	96695.16	1.91	4.00
-Sales	Manager	8	1	12.50	98146.37	1.61	4.13
-Customer Success	Associate	206	24	11.65	56596.94	2.44	3.27
-Finance	Supervisor/Lead	43	5	11.63	69766.70	2.26	3.12
-Engineering	Assistant Manager	9	1	11.11	81559.24	2.01	3.44
-Data Science	Manager	9	1	11.11	96330.61	2.74	2.67
-Facilities	Associate	194	20	10.31	57281.92	2.16	3.16
-Customer Success	Supervisor/Lead	50	5	10.00	73157.44	2.65	3.08
-Sales	Supervisor/Lead	41	4	9.76	75877.50	2.67	3.10
-Supply Chain	Supervisor/Lead	52	5	9.62	71751.64	2.24	3.29
-People Operations	Associate	282	26	9.22	58669.27	2.38	3.30
-Product	Assistant Manager	11	1	9.09	78256.77	2.91	3.55
-Product	Associate	204	18	8.82	58025.95	2.49	3.32
-IT Support	Assistant Manager	12	1	8.33	81017.78	2.56	3.67
-People Operations	Manager	13	1	7.69	100102.80	2.44	3.23
-Quality Assurance	Supervisor/Lead	28	2	7.14	70889.65	2.40	2.68
-People Operations	Assistant Manager	14	1	7.14	83036.90	2.39	3.29
-Marketing	Supervisor/Lead	45	2	4.44	72877.67	2.27	3.44
-Engineering	Supervisor/Lead	45	2	4.44	72123.87	2.90	3.04
-People Operations	Supervisor/Lead	49	1	2.04	73350.93	2.75	3.37
-Security	Manager	9	0	0.00	89886.57	2.14	3.33
-Security	Assistant Manager	8	0	0.00	75637.61	3.04	3.75
-Customer Success	Assistant Manager	8	0	0.00	76474.15	2.83	2.50
-Sales	Assistant Manager	7	0	0.00	82877.78	1.31	3.00
-Legal	Assistant Manager	7	0	0.00	79251.43	4.20	2.86
-Product	Manager	7	0	0.00	91669.63	3.01	3.14
-Supply Chain	Manager	6	0	0.00	99940.16	2.23	2.50
-Facilities	Domain Director	5	0	0.00	140509.86	3.02	3.60
-Finance	Manager	4	0	0.00	103680.08	1.73	3.00
-Customer Success	Domain Director	3	0	0.00	154922.68	2.21	3.00
-Engineering	Domain Director	3	0	0.00	143325.79	2.01	3.00
-Sales	Executive Director	3	0	0.00	207893.42	3.79	2.67
-Corporate Strategy	Domain Director	2	0	0.00	152961.94	1.25	3.50
-Data Science	Domain Director	2	0	0.00	153363.74	2.47	4.00
-Legal	Domain Director	2	0	0.00	134655.99	1.97	3.50
-Product	Domain Director	2	0	0.00	149803.89	4.14	2.50
-Marketing	Domain Director	2	0	0.00	147153.15	2.00	3.00
-IT Support	Domain Director	2	0	0.00	134944.42	2.82	4.00
-Security	Domain Director	2	0	0.00	143558.75	4.13	4.00
-Quality Assurance	Domain Director	2	0	0.00	171425.76	3.10	1.00
-Internal Communications	Domain Director	2	0	0.00	142878.74	1.64	1.50
-Finance	Executive Director	1	0	0.00	213076.10	0.90	4.00
-Marketing	Executive Director	1	0	0.00	178510.72	3.07	3.00
-Sales	Domain Director	1	0	0.00	170142.39	3.41	3.00
-Product	Executive Director	1	0	0.00	172946.43	4.48	4.00
-Legal	Executive Director	1	0	0.00	192280.20	1.52	4.00
+department_name	management_tier	total_headcount	total_attrition_count	attrition_rate_pct	avg_base_salary	total_turnover_cost_exposure	avg_tenure_years	avg_performance_rating	avg_engagement_score	avg_manager_satisfaction	high_flight_risk_count
+Finance	Assistant Manager	9	3	33.33	75130.59	270470.1320	2.26	2.43	5.00	5.57	1
+Customer Success	Manager	6	2	33.33	91504.92	219611.7960	2.97	3.17	5.20	5.00	0
+Supply Chain	Domain Director	3	1	33.33	143455.77	172146.9240	2.01	2.67	6.33	6.00	0
+Data Science	Assistant Manager	10	3	30.00	82607.91	330431.6200	2.15	3.70	6.22	5.89	1
+Supply Chain	Assistant Manager	7	2	28.57	88442.30	247638.4280	2.80	3.00	5.86	5.14	1
+Quality Assurance	Manager	4	1	25.00	94445.62	151112.9840	2.58	2.50	5.75	4.50	0
+People Operations	Domain Director	4	1	25.00	140021.00	224033.5920	3.72	2.50	4.25	6.00	0
+Data Science	Supervisor/Lead	37	9	24.32	74086.80	1096484.6880	2.57	3.50	5.61	5.09	6
+Marketing	Assistant Manager	9	2	22.22	74060.24	266616.8560	2.80	3.00	7.50	4.63	0
+Engineering	Manager	9	2	22.22	98603.25	354971.6920	1.89	3.00	5.43	5.43	0
+Legal	Supervisor/Lead	28	6	21.43	69354.50	776770.3920	2.30	3.00	5.67	5.09	2
+Facilities	Supervisor/Lead	55	11	20.00	71877.39	1581302.5720	2.53	3.07	6.26	5.75	4
+Quality Assurance	Assistant Manager	5	1	20.00	79339.20	158678.3920	2.96	2.80	4.50	4.75	0
+Marketing	Manager	5	1	20.00	90203.52	180407.0400	1.98	3.80	4.25	5.50	1
+Facilities	Manager	5	1	20.00	82945.35	165890.6920	1.27	3.40	7.00	6.25	1
+Security	Associate	174	32	18.39	57803.79	4023143.9680	2.47	3.23	5.87	5.45	19
+Sales	Associate	272	50	18.38	57170.34	6220132.5120	2.35	3.30	5.72	5.26	33
+Legal	Manager	11	2	18.18	95965.24	422247.0640	2.61	3.18	6.50	6.50	3
+Internal Communications	Supervisor/Lead	42	7	16.67	72432.30	1216862.5560	2.17	2.95	6.58	6.33	1
+Corporate Strategy	Assistant Manager	6	1	16.67	77492.60	185982.2440	2.37	3.33	6.17	5.67	0
+Facilities	Assistant Manager	6	1	16.67	84084.44	201802.6640	1.62	3.17	4.80	5.60	2
+Finance	Domain Director	6	1	16.67	129447.50	310673.9880	1.87	2.83	7.75	6.25	0
+Finance	Associate	186	30	16.13	58218.90	4331485.9560	2.54	3.40	5.92	5.69	22
+Marketing	Associate	217	34	15.67	56334.18	4889806.7840	2.33	3.18	5.85	5.21	18
+Corporate Strategy	Associate	221	32	14.48	56566.49	5000478.1560	2.34	3.32	5.68	5.25	26
+Legal	Associate	173	25	14.45	56603.49	3916961.4320	2.57	3.22	5.68	5.41	20
+Corporate Strategy	Manager	7	1	14.29	101588.78	284448.5800	2.14	3.57	7.33	6.33	1
+IT Support	Manager	7	1	14.29	88456.30	247677.6440	1.21	3.57	6.50	5.60	1
+Internal Communications	Associate	190	27	14.21	58251.40	4427106.0440	2.53	3.14	5.79	5.16	17
+Security	Supervisor/Lead	43	6	13.95	73883.75	1270800.4160	2.47	3.07	6.22	5.69	2
+IT Support	Supervisor/Lead	37	5	13.51	72008.60	1065727.2800	2.52	3.62	5.58	4.89	5
+Internal Communications	Assistant Manager	15	2	13.33	85038.52	510231.1160	2.53	2.53	5.61	5.00	1
+Product	Supervisor/Lead	38	5	13.16	72792.76	1106449.9400	2.76	3.16	5.90	5.72	4
+Quality Assurance	Associate	168	22	13.10	55973.35	3761409.3960	2.38	3.30	5.87	4.99	20
+Engineering	Associate	200	26	13.00	57986.20	4638896.0640	2.36	3.20	5.89	5.21	21
+Data Science	Associate	177	23	12.99	57727.01	4087072.3120	2.29	3.19	5.83	5.49	30
+Supply Chain	Associate	227	29	12.78	57738.15	5242623.9120	2.29	3.23	5.90	5.39	28
+IT Support	Associate	237	30	12.66	58192.79	5516676.8080	2.18	3.22	5.91	5.44	25
+Corporate Strategy	Supervisor/Lead	32	4	12.50	72596.14	929230.6440	2.13	3.63	5.97	5.37	8
+Sales	Manager	8	1	12.50	98146.37	314068.3840	1.62	4.13	6.00	4.17	2
+Internal Communications	Manager	8	1	12.50	96695.16	309424.5120	1.93	4.00	6.50	7.00	0
+Customer Success	Supervisor/Lead	51	6	11.76	72945.29	1488083.9880	2.64	3.08	5.53	5.34	6
+Customer Success	Associate	210	24	11.43	56550.05	4750204.1080	2.45	3.27	5.90	5.31	22
+Finance	Supervisor/Lead	45	5	11.11	69732.88	1255191.8960	2.27	3.12	5.46	5.72	6
+Data Science	Manager	9	1	11.11	96330.61	346790.2120	2.76	2.67	4.78	4.87	0
+Facilities	Associate	204	22	10.78	57270.88	4673304.0120	2.16	3.16	5.81	5.57	23
+Engineering	Assistant Manager	10	1	10.00	82323.03	329292.1000	2.16	3.44	5.60	4.56	1
+Sales	Supervisor/Lead	41	4	9.76	75877.50	1244391.0640	2.68	3.10	5.73	5.64	3
+Supply Chain	Supervisor/Lead	52	5	9.62	71751.64	1492434.0560	2.26	3.29	6.20	5.53	5
+Product	Assistant Manager	11	1	9.09	78256.77	344329.7800	2.93	3.55	7.00	6.50	0
+People Operations	Associate	287	26	9.06	58673.83	6735755.8600	2.38	3.30	5.71	5.28	37
+Product	Associate	205	18	8.78	57973.90	4753860.0960	2.50	3.32	5.64	5.11	26
+IT Support	Assistant Manager	12	1	8.33	81017.78	388885.3200	2.58	3.67	5.36	4.45	2
+People Operations	Manager	13	1	7.69	100102.80	520534.5480	2.46	3.23	6.15	4.15	1
+People Operations	Assistant Manager	14	1	7.14	83036.90	465006.6560	2.41	3.29	5.38	4.17	1
+Quality Assurance	Supervisor/Lead	30	2	6.67	71057.76	852693.1720	2.45	2.68	6.15	5.36	1
+Engineering	Supervisor/Lead	45	2	4.44	72123.87	1298229.7160	2.92	3.04	6.09	5.24	3
+Marketing	Supervisor/Lead	46	2	4.35	72754.57	1338684.0320	2.27	3.44	5.95	5.12	7
+People Operations	Supervisor/Lead	50	1	2.00	73002.24	1460044.8080	2.74	3.37	5.51	4.83	5
+Security	Manager	9	0	0.00	89886.57	323591.6440	2.16	3.33	5.56	5.33	0
+Customer Success	Assistant Manager	8	0	0.00	76474.15	244717.2680	2.85	2.50	4.88	4.00	1
+Security	Assistant Manager	8	0	0.00	75637.61	242040.3640	3.06	3.75	4.87	4.63	3
+Sales	Assistant Manager	7	0	0.00	82877.78	232057.7960	1.33	3.00	4.83	5.00	0
+Product	Manager	7	0	0.00	91669.63	256674.9560	3.03	3.14	6.43	7.14	0
+Legal	Assistant Manager	7	0	0.00	79251.43	221904.0080	4.22	2.86	6.29	4.29	0
+Facilities	Domain Director	6	0	0.00	137825.14	330780.3280	2.58	3.60	2.80	2.00	2
+Supply Chain	Manager	6	0	0.00	99940.16	239856.3880	2.25	2.50	6.00	5.67	1
+Finance	Manager	4	0	0.00	103680.08	165888.1280	1.75	3.00	6.00	5.75	0
+Customer Success	Domain Director	3	0	0.00	154922.68	185907.2160	2.23	3.00	4.50	5.50	0
+Engineering	Domain Director	3	0	0.00	143325.79	171990.9480	2.03	3.00	7.00	5.00	0
+Sales	Executive Director	3	0	0.00	207893.42	249472.1080	3.81	2.67	4.00	4.33	0
+Internal Communications	Domain Director	2	0	0.00	142878.74	114302.9920	1.66	1.50	7.00	4.50	0
+Security	Domain Director	2	0	0.00	143558.75	114846.9960	4.15	4.00	2.50	7.00	1
+Corporate Strategy	Domain Director	2	0	0.00	152961.94	122369.5520	1.27	3.50	5.50	4.00	0
+IT Support	Domain Director	2	0	0.00	134944.42	107955.5320	2.84	4.00	7.00	2.50	1
+Quality Assurance	Domain Director	2	0	0.00	171425.76	137140.6040	3.12	1.00	8.00	8.50	0
+Product	Domain Director	2	0	0.00	149803.89	119843.1120	4.16	2.50	5.50	3.00	0
+Legal	Domain Director	2	0	0.00	134655.99	107724.7880	1.99	3.50	3.00	2.50	1
+Marketing	Domain Director	2	0	0.00	147153.15	117722.5160	2.02	3.00	8.00	6.50	0
+Data Science	Domain Director	2	0	0.00	153363.74	122690.9920	2.49	4.00	6.50	7.00	0
+Legal	Executive Director	2	0	0.00	191428.20	153142.5560	1.00	4.00	5.00	6.50	0
+Sales	Domain Director	1	0	0.00	170142.39	68056.9560	3.43	3.00	4.00	2.00	0
+Product	Executive Director	1	0	0.00	172946.43	69178.5720	4.50	4.00	9.99	9.00	0
+Finance	Executive Director	1	0	0.00	213076.10	85230.4400	0.92	4.00	6.00	4.00	0
+Marketing	Executive Director	1	0	0.00	178510.72	71404.2880	3.09	3.00	5.00	7.00	0
