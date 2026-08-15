@@ -32,6 +32,7 @@ StandardizedEmployees AS (
     WHERE employee_id IS NOT NULL
       AND base_salary >= 0 
       AND age BETWEEN 16 AND 100
+      AND DATEDIFF(IFNULL(e.termination_date, CURRENT_DATE()), e.hire_date) / 365 >= 0
       AND performance_rating >= 0
       AND (termination_date IS NULL OR termination_date >= hire_date)
 ),
