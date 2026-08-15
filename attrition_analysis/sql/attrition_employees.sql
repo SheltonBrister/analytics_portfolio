@@ -13,17 +13,22 @@ WITH CleanEmployees AS (
 StandardizedEmployees AS (
     -- Standardize text formats, cast types, and filter out bad data/nulls
     SELECT 
-        employee_id,
-        department_id,
-        TRIM(management_tier) AS management_tier,
-        CAST(base_salary AS DECIMAL(10,2)) AS base_salary,
-        CAST(performance_rating AS UNSIGNED) AS performance_rating,
-        CAST(age AS UNSIGNED) AS age,
-        hire_date,
-        termination_date,
-        TRIM(employment_status) AS employment_status,
-        DATEDIFF(IFNULL(termination_date, CURRENT_DATE()), hire_date) / 365 AS tenure_years
-    FROM CleanEmployees
+        e.employee_id,
+        e.department_id,
+        e.job_title,
+        e.gender,
+        e.ethnicity,
+        TRIM(e.management_tier) AS management_tier,
+        CAST(e.base_salary AS DECIMAL(10,2)) AS base_salary,
+        CAST(e.performance_rating AS UNSIGNED) AS performance_rating,
+        CAST(e.age AS UNSIGNED) AS age,
+        e.hire_date,
+        e.termination_date,
+        TRIM(e.employment_status) AS employment_status,
+        DATEDIFF(IFNULL(e.termination_date, CURRENT_DATE()), e.hire_date) / 365 AS tenure_years,
+        d.department_name
+    FROM CleanEmployees e
+    LEFT JOIN departments d ON e.department_id = d.department_id
     WHERE employee_id IS NOT NULL
       AND base_salary >= 0 
       AND age BETWEEN 16 AND 100
@@ -31,7 +36,7 @@ StandardizedEmployees AS (
       AND (termination_date IS NULL OR termination_date >= hire_date)
 ),
 CleanSurveys AS (
-    -- De-duplicate surveys to get the latest unique response per employee
+    -- Deduplicate surveys to get the latest unique response per employee
     SELECT * 
     FROM (
         SELECT *,
@@ -56,10 +61,17 @@ StandardizedSurveys AS (
 EnrichedEmployees AS (
     SELECT 
         e.employee_id,
+        e.job_title,
+        e.department_name,
+        e.management_tier,
         e.base_salary,
         e.performance_rating,
         e.tenure_years,
+        e.hire_date,
+        e.termination_date,
         e.age,
+        e.gender,
+        e.ethnicity,
         s.engagement_score,
         s.manager_satisfaction,
         s.work_life_balance_score,
@@ -87,10 +99,18 @@ EnrichedEmployees AS (
 )
 
 SELECT 
+    employee_id,
+    department_name,
+    management_tier,
+    job_title,
     base_salary,
     performance_rating,
     ROUND(tenure_years, 2) AS tenure_years,
     age,
+    gender,
+    ethnicity,
+    hire_date,
+    termination_date,
     engagement_score,
     manager_satisfaction,
     work_life_balance_score,
